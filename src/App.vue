@@ -1,11 +1,12 @@
 <script setup lang="ts">
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import Greet from "./components/Greet.vue";
+import Tabs from "./components/Tabs.vue";
+import Pomodoro from "./components/Pomodoro.vue";
 </script>
 
 <template>
-  <div class="flex flex-col items-center">
+  <div class="flex flex-col items-center justify-center py-32">
     <div>
       <h1 class="text-center text-4xl">Hive Pomodoro</h1>
 
@@ -18,7 +19,8 @@ import Greet from "./components/Greet.vue";
       </a>
     </div>
 
-    <Greet />
+    <Tabs />
+    <Pomodoro />
   </div>
 </template>
 
