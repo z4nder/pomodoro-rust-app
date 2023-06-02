@@ -5,12 +5,16 @@ import Greet from "./components/Greet.vue";
 </script>
 
 <template>
-  <div class="container">
-    <h1>Hive Pomodoro</h1>
+  <div class="flex flex-col items-center">
+    <div>
+      <h1 class="text-center text-4xl">Hive Pomodoro</h1>
 
-    <div class="row">
-      <a href="https://vitejs.dev" target="_blank">
-        <img src="./assets/logo_render.svg" class="logo vite" alt="Vite logo" />
+      <a
+        class="flex justify-center"
+        href="https://discord.gg/JspQr3GPve"
+        target="_blank"
+      >
+        <img src="./assets/logo_render.svg" alt="Hive logo" />
       </a>
     </div>
 
